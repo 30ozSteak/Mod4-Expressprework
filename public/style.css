@@ -1,0 +1,31 @@
+h1 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.dark {
+  background-color: black;
+  filter: invert(1);
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  transition: 0.2s;
+}
